@@ -49,9 +49,10 @@ function reverseArrayString(){
 
     var stringOne = ((document.getElementsByTagName("p").item(1).innerText));
     var stringSplit = stringOne.split(" ");
-    var reverseString = stringSplit.reverse();
+    //var reverseString = stringSplit.reverse();
 
-    alert(reverseString);
+    alert(" The reverse order for :\n" + stringSplit
+    + " is :\n" + stringSplit.reverse());
 
 }
 

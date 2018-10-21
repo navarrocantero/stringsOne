@@ -57,6 +57,7 @@ function reverseArrayString(){
 }
 
 function reverseArrayChar() {
+    alert("Reversing your string...");
 
     var stringOne = ((document.getElementsByTagName("p").item(1).innerText));
     var stringSplit = stringOne.split(" ");

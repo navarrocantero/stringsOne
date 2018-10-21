@@ -46,6 +46,7 @@ function vowelReplacement(){
 }
 
 function reverseArrayString(){
+    alert("Reversing your array...");
 
     var stringOne = ((document.getElementsByTagName("p").item(1).innerText));
     var stringSplit = stringOne.split(" ");

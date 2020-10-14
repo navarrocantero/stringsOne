@@ -1,4 +1,5 @@
-function vowelCount(){
+//TECA
+function vowelCount() {
 
    var stringOne = ((document.getElementsByTagName("p").item(1).innerText));
    var stringSplit = stringOne.split(" ");
